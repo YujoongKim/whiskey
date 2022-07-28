@@ -3,6 +3,24 @@
 
 - 🔭 I’m currently working on [Whiskey Application](www.github.com/yujoongkim/whiskey)
 
+#Whiskey Application 
+
+## Introduction
+This application provides a library system for whiskey. User can update the whiskey's volume and add new whiskey information. 
+
+## Architecture
+
+* Server: 
+    * SpringBoot (in Java)
+* Front End: 
+    * VUE.js
+* Testing:
+    * Unit Tests through J-Unit.
+    * Integration Testing through J-Unit
+
+## Visuals
+![screenshot](https://github.com/achongsBiz/readme-files/blob/master/api-postcards/sc1.png)
+
 - 🌱 I’m currently learning **React**
 
 - 👨‍💻 All of my projects are available at [www.github.com/yujoongkim](www.github.com/yujoongkim)
