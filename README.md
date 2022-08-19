@@ -1,36 +1,68 @@
-<h1 align="center">Hi 👋, I'm Yujoong Kim</h1>
-<h3 align="center">Problem-Solver in the Forefront of Technology and Innovation</h3>
+# Whiskey Application
 
-- 🔭 I’m currently working on [Whiskey Application](www.github.com/yujoongkim/whiskey)
+## Back End
 
-#Whiskey Application 
+This is an application that performs storing information of your own whiskey library in DB. 
+It supports the following calls:
 
-## Introduction
-This application provides a library system for whiskey. User can update the whiskey's volume and add new whiskey information. 
+## Add Whiskey into DB (POST): 
 
+Create a whiskey list
+Sample call: 
+
+```http://localhost:8080/newWhiseky```
+
+
+## Whiskey in the DB (GET): 
+
+Returns the present value of a single Whiskey
+  
+Sample call: 
+
+```http://localhost:8080/getWhiskeyById/{id}```
+
+
+## Update Whiskey in the DB (PUT): 
+
+Updates value of a single Whiskey in DB
+  
+Sample call: 
+
+```http://localhost:8080/updateWhiskey```
+
+    
 ## Architecture
 
-* Server: 
+* Server:
     * SpringBoot (in Java)
-* Front End: 
-    * VUE.js
+    * Maven
+
 * Testing:
-    * Unit Tests through J-Unit.
-    * Integration Testing through J-Unit
+    * Unit Tests through JUnit
+    * Endpoint Testing through RestAssured
+
+## Front End
+
+This is a VUE application that consumes the movie api 
+from "https://imdb-api.com/en/API". It allows the user save whiskey bottle in DB with detailed information and it's volume. Also the app has an update function it calculate whiskey volume when the user put the volume they consumed.
+
+* Whiskey List 
+* Whiskey Details
+* Update whiskey information from DB
+* Update the volume of the wiskey after comsuming  
+
+## Project setup
+
+```
+npm install
+npm run serve
+```
+### Customize configuration
+
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
 
 ## Visuals
-![screenshot](https://github.com/achongsBiz/readme-files/blob/master/api-postcards/sc1.png)
 
-- 🌱 I’m currently learning **React**
-
-- 👨‍💻 All of my projects are available at [www.github.com/yujoongkim](www.github.com/yujoongkim)
-
-- 📫 How to reach me **kimyujoong@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a> </p>
+![screenshot](https://github.com/YujoongKim/readme-files/blob/3d35f47a44b2f933ff0534062d9ab7ed704a9be2/movie-vue.png)
 
