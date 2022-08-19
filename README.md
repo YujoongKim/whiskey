@@ -63,5 +63,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Visuals
 
-![screenshot](https://github.com/YujoongKim/readme-files/blob/3d35f47a44b2f933ff0534062d9ab7ed704a9be2/movie-vue.png)
+![screenshot](https://github.com/YujoongKim/readme-files/blob/63c7c26d4830e1d111c1b4d665a5aae7eadeee41/whiskey.png)
 
