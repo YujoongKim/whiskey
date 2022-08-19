@@ -43,8 +43,7 @@ Sample call:
 
 ## Front End
 
-This is a VUE application that consumes the movie api 
-from "https://imdb-api.com/en/API". It allows the user save whiskey bottle in DB with detailed information and it's volume. Also the app has an update function it calculate whiskey volume when the user put the volume they consumed.
+This is a VUE application that create whiskey library. It allows the user save whiskey bottle in DB with detailed information and it's volume. Also the app has an update function it calculate whiskey volume when the user put the volume they consumed.
 
 * Whiskey List 
 * Whiskey Details
